@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/refractionist/schemable"
-	"github.com/refractionist/schemable/schemabletest"
+	"github.com/refractionist/schemable_sqlitetest/internal/schemable"
+	"github.com/refractionist/schemable_sqlitetest/internal/schemable/schemabletest"
 )
 
 func TestSqlite(t *testing.T) {
