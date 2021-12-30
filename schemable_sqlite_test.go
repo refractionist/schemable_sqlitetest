@@ -29,7 +29,5 @@ func TestSqlite(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	schemabletest.ClientTests(t, c)
-	schemabletest.RecorderTests(t, ctx)
-	schemabletest.SchemerTests(t, ctx)
+	schemabletest.Run(t, c)
 }
