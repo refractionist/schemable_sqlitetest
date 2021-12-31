@@ -24,7 +24,7 @@ func TestSqlite(t *testing.T) {
 			name STRING,
 			volume INTEGER
 		)
-`)
+	`)
 	if err != nil {
 		t.Fatal(err)
 	}
