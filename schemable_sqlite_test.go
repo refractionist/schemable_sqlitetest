@@ -18,11 +18,11 @@ func TestSqlite(t *testing.T) {
 	c.SetLogger(schemabletest.QueryLogger(t))
 	ctx := schemable.WithClient(context.Background(), c)
 	_, err = c.Exec(ctx, `
-		CREATE TABLE test_structs (
+		CREATE TABLE comic_titles (
 			id INTEGER PRIMARY KEY AUTOINCREMENT,
 			id_two INTEGER,
 			name STRING,
-			num INTEGER
+			volume INTEGER
 		)
 `)
 	if err != nil {
