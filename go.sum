@@ -12,5 +12,7 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/refractionist/schemable v0.0.0-20220102085644-b7affbe2614e h1:Xwt2ai5fvneihZQ4C2leij9JL2b+uzxdpumc6Kj8aWI=
 github.com/refractionist/schemable v0.0.0-20220102085644-b7affbe2614e/go.mod h1:hhUkKGeu1KUXrViG0gQ36oFuUMV/Qr5snlWcLRKNx74=
+github.com/refractionist/schemable v0.0.0-20220131222348-487bff26c84f h1:r+cPvYfKYGRmXITfHMjEOatSVy/YoKrlnynAx64C/mg=
+github.com/refractionist/schemable v0.0.0-20220131222348-487bff26c84f/go.mod h1:hhUkKGeu1KUXrViG0gQ36oFuUMV/Qr5snlWcLRKNx74=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
