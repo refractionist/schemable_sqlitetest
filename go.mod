@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/mattn/go-sqlite3 v1.14.10
-	github.com/refractionist/schemable v0.0.0-20220131222348-487bff26c84f
+	github.com/refractionist/schemable v0.0.0-20220204182810-e90f68b610b8
 )
 
 require (
