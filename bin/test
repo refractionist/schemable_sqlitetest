@@ -1,0 +1,10 @@
+#!/bin/bash
+
+bin/fmt
+go1.18beta1 version
+go mod edit -replace github.com/refractionist/schemable=../schemable
+go1.18beta1 test . -v && rc=$? || rc=$?
+go mod edit -dropreplace github.com/refractionist/schemable
+if [ "$rc" -ne "0" ]; then
+  exit $rc
+fi
